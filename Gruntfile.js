@@ -31,7 +31,7 @@ module.exports = function(grunt) {
 		casperjs: {
 			test: {
 				files: [{
-					src: ['tests/ghost/*_test.js']
+					src: ['tests/**/*_test.js']
 				}]
 			},
 			options: {
